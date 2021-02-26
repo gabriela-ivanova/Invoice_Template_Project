@@ -1,0 +1,87 @@
+<div class="flex_container">
+    <div class="flex_element_1">
+        <form onsubmit="return false;" id="form_placeholder">
+
+            <label for="client_name" id="client_name_label">Client Name</label>
+            <select id="client_name">
+                <option>Choose Name</option>
+                <option>Mihail Petrov</option>
+                <option>Joanna Georgieva</option>
+                <option>Stanislava Bozhilova</option>
+            </select>
+            <br>
+
+            <label for="legal_case" id="legal_case_label">Matter</label>
+            <input type="text" id="legal_case" placeholder="Legal work" size="60">
+            <br>
+
+            <label for="issuer_name" id="issuer_name_label">Issuer</label>
+            <select id="issuer_name">
+                <option>Choose Name</option>
+                <option>Petar Petrov</option>
+                <option>Gabriela Ivanova</option>
+                <option>Desislava Georgieva</option>
+            </select>
+            <br>
+
+            <label for="currency" id="currency_label">Currency</label>
+            <select id="currency">
+                <option>Choose Currency</option>
+                <option>Euro</option>
+                <option>US</option>
+            </select>
+            <br>
+
+            <label for="invoice_number" id="invoice_number_label">Invoice No:</label>
+            <input type="text" id="invoice_number" placeholder="Number/2021" size="60">
+            <br>
+
+            <label for="issuing_date" id="issuing_date_label">Issuing Date:</label>
+            <input type="date" id="issuing_date">
+            <br>
+
+            <label for="service_descr" id="service_descr_label">Description of services:</label>
+            <input type="text" id="service_descr" placeholder="Service Name">
+            <br>
+            
+            <label for="amount" id="amount_label">Amount:</label>
+            <input type="text" id="amount" placeholder="Equal to one">
+            <br>
+            
+            <label for="price" id="price_label">Price:</label>
+            <input type="text" id="price" placeholder="0.00">
+            <br>
+            
+            <label for="total_without_vat" id="total_wihtout_vat_label">Total:</label>
+            <input type="text" id="total_without_vat" placeholder="0.00">
+            <br>
+  
+            <label for="vat" id="vat_label">VAT:</label>
+            <input type="text" id="vat" value="20%" disabled>
+            <br>
+
+            <label for="total" id="total_label">Total(with VAT):</label>
+            <input type="text" id="total">
+            <br>
+
+            <button id="create_invoice_btn">CREATE INVOICE</button>
+
+            <div id="regards_message">
+                <span>Kind regards,</span><br>
+                <span>Gabriela Ivanova</span>
+            </div> 
+            
+        </form>  
+    </div>
+
+    <div class="flex_element_2">
+        <button type="button" id="clear_btn">CLEAR</button>
+    </div>
+    
+    <button type="button" id="back_btn">BACK</button>
+</div>
+
+<p id="create_message"></p>
+
+
+

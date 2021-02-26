@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>LegalTrek Invoice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+
+        <div id="header" class="wrapper"> 
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <span class="navbar-brand" id="legal_trek_logo">LegalTrek</span>
+                <span class="navbar-brand" id="invoice_title">CREATE INVOICE</span>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav" id = "wellcome_menu">
+                        <li class="nav-item" id="menu-create" data-controller="create">Create Invoice</li> 
+                    </ul>
+                </div>
+            </nav>
+        </div>    
+
+        <div id    = "content" class = "wrapper">
+
+            <span id="wellcome_message"><span id="bold_part">Wellcome to LegalTrek</span> - Cloud Solution for Your Law Firm.</span><br><br>
+            <span>Create your invoice with one click of the menu button "CREATE INVOICE".</span>
+
+        </div>    
+
+        <div id="footer"></div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+        <script src="lib/jquery.js"></script> 
+        <script src="lib/ajax.js"></script>
+        <script src="lib/template.js"></script>
+        <script src="src/api/http.api.js"></script>
+        <script src="src/api/api.js"></script>
+        <script src="src/managers/Router.js"></script>
+        <script src="src/controllers/create/CreateController.js"></script>
+
+        <script>   
+
+               $('#invoice_title').hide()              ;
+               $('#back_btn').hide()                   ;
+               
+               $("#menu-create").on('click', () => {
+                
+                  $("#legal_trek_logo").hide() ;
+                  $('#menu-create').hide()             ;
+                  $('#back_btn').hide()                ;
+                  $('#invoice_title').show()           ;
+               }); 
+               
+        </script>
+    </body>
+</html>

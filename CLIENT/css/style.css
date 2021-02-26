@@ -1,0 +1,196 @@
+  * { 
+    margin               : 0                   ;
+    padding              : 0                   ;
+}
+
+#header {
+    background-color     : rgb(237, 238, 240)  ;
+    position             : fixed               ;
+    top                  : 0                   ;
+    right                : 270px               ;
+    z-index              : 16                  ;
+}
+
+#footer {
+    height               : 70px                ;
+}
+
+#wellcome_menu li{
+    display              : inline              ;
+    text-transform       : uppercase           ;
+    color                : #000                ;
+    margin-top           : 14px                ;
+    margin-left          : 623px               ;
+}
+
+#wellcome_menu li:hover {
+    font-weight          : bold                ;
+    cursor               : pointer             ;
+}
+
+#wellcome_menu li:active {
+    transform            : translateY(4px)     ;
+}
+  
+
+#legal_trek_logo {
+    color                : rgb(25,84,161)      ;
+    font-size            : 36px                ;
+    font-weight          : bold                ;
+    margin-left          : 13px                ;
+}
+
+#invoice_title {
+    margin-left          : 33%                 ;
+    font-size            : 33px                ;
+    font-weight          : bold                ;
+    text-decoration      : none                ;
+}
+
+.wrapper {  
+    width                : 980px               ;
+    margin               : auto                ;
+}
+
+#content {
+    margin-top           : 133px               ;
+    margin-left          : 287px               ;
+}
+
+#wellcome_message {
+    font-size            : 18px                ;
+}
+
+#bold_part {
+    font-weight          : bold                ;
+    color                : rgb(25,84,161)      ;
+}
+
+.flex_container {
+    display              : flex                ;
+    width                : 980px               ;    
+}
+
+#form_placeholder {
+    width                : 900px               ;
+    margin               : auto                ;
+}
+
+#client_name {
+    margin-left          : 100px               ;
+    margin-right         : 8px                 ;
+    padding-right        : 20px                ;
+}
+
+#legal_case {
+    margin-left          : 139px               ;
+    margin-right         : 8px                 ;
+    padding-right        : 48px                ;
+    padding-left         : 3px                 ;
+}
+
+#issuer_name {
+    margin-left          : 146px               ;
+    padding-right        : 21px                ;
+}
+
+#currency {
+    margin-left          : 125px               ;
+    padding-right        : 42px                ;
+}
+
+#invoice_number {
+    margin-left          : 109px               ;
+    margin-right         : 8px                 ;
+    padding-right        : 46px                ;
+    padding-left         : 3px                 ;
+}
+
+#issuing_date {
+    margin-left          : 98px                ;
+    padding-right        : 11px                ;
+    padding-left         : 2px                 ;
+}
+
+#service_descr {
+    margin-left          : 27px                ;
+    padding-right        : 335px               ;
+    padding-left         : 2px                 ;
+}
+
+#amount {
+    margin-left          : 128px               ;
+    padding-right        : 2px                 ;
+    padding-left         : 2px                 ;
+}
+
+#price {
+    margin-left          : 151px               ;
+    padding-right        : 2px                 ;
+    padding-left         : 2px                 ;
+}
+
+#total_without_vat {
+    margin-left          : 152px               ;
+    padding-left         : 2px                 ;
+
+}
+
+#vat {
+    margin-left          : 159px               ;
+    padding-left         : 2px                 ;
+}
+
+#total {
+    margin-left          : 82px                ;
+    margin-right         : 8px                 ;
+    padding-left         : 2px                 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#regards_message {
+    margin-top           : 45px                ;
+}
+
+#create_invoice_btn {
+    padding              : 3px                 ;
+    margin-top           : 33px                ;
+    margin-left          : 24.5%               ;
+}
+
+#clear_btn {
+    padding              : 3px                 ;
+}
+
+#create_message {
+    margin-left          : 34%                 ;
+}
+
+#back_btn {
+    margin-left          : 914px               ;
+    margin-bottom        : 20px                ;
+    padding              : 3px 5px             ;
+    color                : rgb(25,84,161)      ;
+    font-weight          : bold                ;
+    background           : #fff                ;
+    border               : 1px solid           ;
+}
